@@ -1,0 +1,23 @@
+.card-text{
+	text-align: center;
+    
+}
+img{
+    padding-left: 40%;
+    width: 200px;
+    
+}
+.card-title{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: darkorchid;
+}
+button,div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h4{
+    font-weight: bolder;
+    color: deeppink;
+}
