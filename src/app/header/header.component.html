@@ -1,8 +1,8 @@
   <div>
-    <mat-toolbar color="primary">
-        <span>My Application</span>
+    <mat-toolbar color="#332D2D">
+        <span>Shop ElAN</span>
         <ul>
-          <a href='accueil'>ACCUEIL</a>
+          <a href=''>ACCUEIL</a>
         </ul>
         <ul>
           <a href='login'>LOGIN</a>
@@ -10,14 +10,17 @@
         <ul>
           <a href='register'>SIGN UP</a>
         </ul>
+        <ul>
+          <a href='contact'>contact</a>
+        </ul>
         <ul><button mat-button [matMenuTriggerFor]="menu"><a>PRODUIT</a></button>
           <mat-menu #menu="matMenu">
             <a href='tv'><button mat-menu-item>TV</button></a>
             <a href='pc'><button mat-menu-item>PC </button></a>
-            <a href="phone"><button mat-menu-item>PHONE </button></a>
-          </mat-menu></ul> 
-            
+            <a href='phone'><button mat-menu-item>PHONE </button></a>
+          </mat-menu></ul>     
     </mat-toolbar>
     
   </div>  
+  
   

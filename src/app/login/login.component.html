@@ -1,17 +1,17 @@
 <body><div fxLayoutAlign="center center"fxFlexFill class="main-div">
     <mat-card fxFlex="25">
       <mat-toolbar color="primary">Logain Page</mat-toolbar>
-      <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+    <form fxLayoutAlign="stretch" fxLayout="column" class="login-form"action="login.php"  method="post">
 
       <label>User</label>
       <mat-form-field >
-      <input matInput placeholder="username" >
+      <input matInput placeholder="username" name="user" >
       </mat-form-field>
       <label>Password</label>
       <mat-form-field >
-        <input matInput placeholder="password" type="password" >
+        <input matInput placeholder="password" type="password" name="pass" >
       </mat-form-field>
-      <button mat-raised-button type="submit">Login</button>
+      <button mat-raised-button (click)="login()" >Login</button>
       
     </form>
     </mat-card>

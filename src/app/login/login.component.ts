@@ -16,5 +16,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 })
 export class LoginComponent {
   
-
+  login(){
+    alert("hi");
+  }
 }

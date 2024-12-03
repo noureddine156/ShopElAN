@@ -1,27 +1,55 @@
-<body>
-    <div fxLayoutAlign="center center"fxFlexFill class="main-div">
-    <mat-card fxFlex="25">
+<div class="ml">
+    <div fxLayoutAlign="center center" fxFlexFill class="main-div">
+      <mat-card fxFlex="25">
         <mat-toolbar color="primary">SIGN UP</mat-toolbar>
-        <form  fxLayout="column" class="register-form">
-            <label>Your full name</label> 
-            
-                <input matInput placeholder="Enter your full name">
-            
-            <label>Email</label> 
-            
-                <input matInput placeholder="Enter your email">
-            
-            <label>Password</label>
-            
-                <input placeholder="Enter your password"  type="password">
-        
-            <label>Confirm password</label>
-
-            <input placeholder="Enter your password"  type="password">
-                
-                <button class="btn">SIGN UP</button>
-                <p>Have an Account? <a class="link" href="http://localhost:63150/login" >Login Here!</a></p>
-
-           
-        </form></mat-card></div></body>
-        
+        <form fxLayout="column" class="register-form">
+          <label>Your full name</label>
+          <input 
+            matInput 
+            placeholder="Enter your full name" 
+            [(ngModel)]="fullName" 
+            name="fullName" 
+            required
+          />
+  
+          <label>Email</label>
+          <input 
+            matInput 
+            placeholder="Enter your email" 
+            [(ngModel)]="email" 
+            name="email" 
+            required
+          />
+  
+          <label>Password</label>
+          <input 
+            matInput 
+            placeholder="Enter your password" 
+            type="password" 
+            [(ngModel)]="password" 
+            name="password" 
+            required
+          />
+  
+          <label>Confirm password</label>
+          <input 
+            matInput 
+            placeholder="Enter your password" 
+            type="password" 
+            [(ngModel)]="confirmPassword" 
+            name="confirmPassword" 
+            required
+          />
+  
+          <button mat-raised-button color="primary" type="button" class="btn" (click)="gotologin()">
+            SIGN UP
+          </button>
+          <p>
+            Have an Account? 
+            <a class="link" routerLink="/login">Login Here!</a>
+          </p>
+        </form>
+      </mat-card>
+    </div>
+</div>
+  

@@ -1,11 +1,12 @@
 #ul{
 	display: flex;
     flex-wrap: wrap;
+    padding-right: 40px;
     
 }
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(18, 231, 203);
     font-weight: bolder;
     font-size: 20px;
 
@@ -13,4 +14,11 @@ a{
 
 div{
     margin-bottom: 50px;
+}
+span{
+    color: cadetblue;
+    text-decoration: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 28px;
 }

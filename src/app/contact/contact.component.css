@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .patat {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Header */
+  .shop-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .shop-header h1 {
+    color: #4267B2; /* Facebook blue */
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .shop-header h3 {
+    color: #333333;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section */
+  .shop-contact {
+    margin-bottom: 20px;
+  }
+  
+  .shop-contact h3 {
+    color: #555555;
+    margin-bottom: 10px;
+  }
+  
+  .shop-contact p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Social Section */
+  .shop-social h3 {
+    color: #555555;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  p a{
+    text-align: center;
+  }
+  
+  .social-button {
+    display: inline-block;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .social-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-button:hover {
+    background-color: #365899;
+  }
+  /* Boutons sociaux */
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4267B2; /* Facebook blue par défaut */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .social-button i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .social-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-button:hover {
+    background-color: #365899;
+  }
+  
+  /* Styles spécifiques pour chaque réseau */
+  .facebook-button {
+    background-color: #4267B2;
+  }
+  
+  .facebook-button:hover {
+    background-color: #365899;
+  }
+  
+  .instagram-button {
+    background-color: #C13584; /* Instagram gradient-like color */
+  }
+  
+  .instagram-button:hover {
+    background-color: #A02C6C;
+  }
+  h1{
+    font-size: 2.5rem;
+    
+  }
+  h3{
+    font-size: 1.5rem;
+  }
